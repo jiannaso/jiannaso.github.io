@@ -2,19 +2,19 @@
 <html>
 
 <head>
-  <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  <link href="resources/css/index.css" type="text/css" rel="stylesheet">
   <title>Jianna So Design</title>
 </head>
 
-<body>
+<body style="background-image: url('images/sunset.JPG');">
   <div class = "page-content">
 
-    <div class ="header-wrap">
+    <div class ="wrap">
 
-      <div class ="header-content">
-        <h1>Jianna is a <span class = "oi">Product Designer & Activist</span> at Stanford dedicated to social good.</h1>
+      <div class ="intro">
+        <h1>Jianna is a <span class = "oi">Product Designer & activist</span> at Stanford creating for social good.</h1>
 
-        <div class = "home-images">
+        <div class = "images">
           <img src="images/jianna_mirror.JPG" ID ="mirror">
           <img src="images/likas1.jpg" ID ="sunset">
           <video playsinline autoplay muted loop>
@@ -33,7 +33,6 @@
           </div>
 
           <!-- LOVES -->
-          <a href="pages/LAT.html">
           <div class="project-box" id="link-LAT">
               <div class="project-box-desc">
                   <h2>Loves:</h2>
@@ -41,7 +40,6 @@
               </div>
               <div class="project-box-bg"></div>
           </div>
-        </a>
 
           <!-- DREAM -->
           <div class="project-box" id="link-TINA">
@@ -51,20 +49,21 @@
               </div>
           </div>
         </div>
+
       </div>
     </div>
 
-  <div class = "experiences-wrap">
+  <div class = "wrap" ID = "experiences">
     <div class = "boxes">
-      <h1>Projects</h1>
+      <h1 class = "oi">Projects</h1>
       <!-- Los Angeles Times -->
-      <a href="pages/LAT.html">
+
+      <a href="pages/vert-LAT.html" onmouseover="changeBackground('LAT');" onmouseout="document.getElementById('overlay').innerHTML = '';">
       <div class="project-box" id="link-LAT">
           <div class="project-box-desc">
               <h2>Los Angeles Times</h2>
               <h3> app redesign, Chrome plugin design </h3>
           </div>
-          <div class="project-box-bg"></div>
       </div>
     </a>
 
@@ -109,16 +108,34 @@
       </div>
 
     </div>
+    <div id = "overlay">
+    </div>
   </div>
 
+  <script type="text/javascript">
+         function changeBackground(what) {
+
+           //case "LAT":
+             document.getElementById("overlay").innerHTML = '<img src="images/LAT/bg.png">';
+         }
+
+   </script>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class = footer-box>
   </div>
 
  <footer>
-   <a class="page-footer">
+   <a href="https://www.linkedin.com/in/jianna-so/" target="_blank" class="page-footer">
      LinkedIn
    </a>
-   <a class="page-footer">
+   <a href="resume/resume.pdf" target="_blank" class="page-footer">
      Resume
+   </a>
+   <a class="page-footer" id="wide-foot">
+     Coded with love & this Spotify playlist
    </a>
  </footer>
 

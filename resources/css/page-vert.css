@@ -1,0 +1,156 @@
+/* SETUP */
+}
+
+/* BODY */
+body {
+  background-color: white;
+}
+#overlay {
+  z-index: 1;
+}
+
+.offset {
+  height: 50px;
+}
+
+/* BOXES */
+
+.boxes {
+  width: 100%;
+}
+
+.project-box {
+  position:static;
+  top: 100px;
+  width: 200px;
+  height: 150px;
+}
+
+/* HOR */
+.project-hor {
+  display: inline-flex;
+  padding: 1% 20%;
+}
+
+#project-text-hor {
+  width: 100%;
+}
+#project-text-hor h2 {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  margin: 0;
+}
+
+#project-image-hor img {
+  position: relative;
+  padding: 1% 0;
+  width: 60%;
+}
+
+#project-text-hor p {
+  bottom: 0;
+  width: 90%;
+  margin: 0;
+  padding-bottom: 5%;
+}
+
+/* VERT */
+#project-image-vert {
+  width: 100%;
+  flex-basis: 40%;
+}
+
+#project-image-vert img {
+  align: right;
+  padding: 0 0;
+  width: 100%;
+}
+
+img {
+  padding: 0;
+}
+
+/* TEXT */
+h1 {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 5%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 150%;
+  font-family: Karla;
+  font-weight: normal;
+}
+
+.text {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  top: 20px;
+  /* padding: 0 0 1%; */
+}
+
+.text h2 {
+  font-family: Karla;
+  font-size: 1.5rem;
+  position: relative;
+  text-align: left;
+  color: #A53654;
+  bottom: 10px;
+}
+
+.text p {
+  position: relative;
+  text-align: left;
+  font-family: Karla;
+  line-height: 150%;
+  letter-spacing: .25px;
+  bottom: 20px;
+}
+
+p, li, h3 {
+  font-size: 1.1rem;
+}
+
+li {
+  font-family: Karla;
+  line-height: 150%;
+  position: relative;
+  padding: 1% 0 0 5%;
+  width: 90%;
+  list-style-type: none;
+  bottom: 40px;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #164085; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+b {
+  font-family: Karla;
+  font-weight: bold;
+  color: #164085;
+}
+
+#feature {
+  color: #164085;
+}
+
+#dark {
+  background: white;
+}

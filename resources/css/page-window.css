@@ -1,0 +1,107 @@
+/* SETUP */
+}
+
+/* BODY */
+body {
+  background-color: white;
+}
+#overlay {
+  z-index: 1;
+}
+
+/* BOXES */
+
+.boxes {
+  width: 100%;
+}
+
+.project-box {
+  position:static;
+  top: 100px;
+  width: 200px;
+  height: 150px;
+  top: 50px;
+}
+
+/* HOR */
+.project-hor {
+  display: inline-flex;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#project-text-hor h2 {
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+}
+
+#project-image-hor img {
+  width: 30%;
+}
+
+#project-text-hor p {
+  bottom: 0;
+  width: 75%;
+}
+
+/* VERT */
+#project-image-vert {
+  width: 100%;
+}
+
+#project-image-vert img {
+  align: right;
+  width: 100%;
+}
+
+img {
+  padding: 0;
+}
+
+/* TEXT */
+h1 {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 150%;
+  font-family: Karla;
+  font-weight: normal;
+}
+
+.text {
+  position: relative;
+  width: 75%;
+  margin: auto;
+  top: 20px;
+}
+
+.text h2 {
+  position: relative;
+  bottom: 50px;
+  text-align: left;
+}
+
+.text p {
+  position: relative;
+  bottom: 50px;
+  text-align: left;
+  font-family: Karla;
+  line-height: 150%;
+}
+
+#dark {
+  background: white;
+}
