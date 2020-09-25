@@ -141,7 +141,7 @@ a:hover {
 
 /* TEXT & LINKS */
 h1 {
-  position: relative;
+  /* position: relative; */
   display: block;
   font-size: 2rem;
   text-align: center;
@@ -212,6 +212,7 @@ h3 {
 #h1-2 {
   width: 100%;
   margin-bottom: 10px !important;
+  margin: 0;
 }
 
 /* IMAGES & VIDEOS */
