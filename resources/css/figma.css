@@ -1,33 +1,41 @@
 ul li::before {
-  color: #087DA2;
+  color: #A259FF;
+}
+
+img {
+  padding: 1% 0;
+}
+
+ol li::before {
+  color: #A259FF;
 }
 
 .write-up {
-  background: #131313;
-  color: white;
+  background: white;
+  color: black;
 }
 
 .intro {
   color: white;
-  /* background: linear-gradient(to bottom, #005a77 0%, #087da2 100%); */
-  background: #131313;
+  /* background: #8840E3; */
+  background: linear-gradient(to bottom, #642AAD 0%, #8840E3 100%);
 }
 
 h2 {
-  color: #FFECBB;
+  color: #D9BBFF;
 }
 
 .text h2 {
-  color: #FFCA41;
+  color: #A259FF;
 }
 
 b {
-  color: #087DA2;
+  color: #F24E1E;
 }
 
 #new {
-  color: #4F5152;
-  background-color: #FFCA41;
+  color: #F24E1E;
+  /* background-color: #FFCA41; */
   width: 103px;
 }
 
@@ -36,15 +44,16 @@ b {
 }
 
 #feature {
-  color: #CB9200;
+  color: #5615A8;
+  bottom: 0;
 }
 
 .nav h1, .nav h3 {
-  color: #131313;
+  color: #A259FF;
 }
 
 .footer-box {
-  background-color: black;
+  background-color: #F24E1E;
 }
 
 footer a {
@@ -52,9 +61,13 @@ footer a {
 }
 
 .offset {
-  background-color: #131313;
+  background-color: white;
 }
 
 footer a:hover {
   color: white;
+}
+
+ul {
+  padding-top: 10px;
 }
