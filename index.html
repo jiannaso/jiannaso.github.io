@@ -3,35 +3,45 @@
 
 <head>
   <link href="resources/css/index.css" type="text/css" rel="stylesheet">
-  <title>Jianna So Design</title>
+  <title>jianna so</title>
   <meta property="og:title" content="Jianna <3's Design">
   <meta property="og:description" content="Creating for social good.">
-  <!-- <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg"> -->
   <meta property="og:image" content="https://repository-images.githubusercontent.com/297139922/d3345280-fe03-11ea-9b6c-f159ea742e13">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 
 <body style="background-image: url('images/sunset.jpg');">
-  <div class = "page-content">
 
+  <div class = "page-content">
     <div class ="wrap">
+      <div class = "nav">
+        <h1>jianna so</h1>
+        <a href="#projects">
+          <h3>projects</h3>
+        </a>
+        <a href="resume.pdf" target="_blank">
+          <h3>resumé</h3>
+        </a>
+        <h3>about</h3>
+      </div>
 
       <div class ="intro">
-        <h1>Jianna is a <span class = "oi">Product Designer & activist</span> at Stanford creating for social good.</h1>
+        <h1>jianna is a <span class = "oi">product designer & activist</span> at stanford creating for social good.</h1>
 
         <div class = "images">
           <img src="images/jianna_mirror.JPG" ID ="mirror">
           <img src="images/likas1.jpg" ID ="sunset">
-          <video playsinline autoplay muted loop>
+          <img src="images/jianna_sunset.jpg" ID ="mirror">
+          <!-- <video playsinline autoplay muted loop>
             <source src="videos/box.mov" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
+          </video> -->
         </div>
 
         <div class = "boxes">
           <!-- CURRENT -->
           <div class="project-box" id="link-TINA">
               <div class="TINA">
-                  <h2>Working on:</h2>
+                  <h2>working on:</h2>
                   <h3>Civic Tech @ the U.S. Census Bureau</h3>
               </div>
           </div>
@@ -39,7 +49,7 @@
           <!-- LOVES -->
           <div class="project-box" id="link-LAT">
               <div class="project-box-desc">
-                  <h2>Loves:</h2>
+                  <h2>thinking of:</h2>
                   <h3>community care, dairy alternatives</h3>
               </div>
               <div class="project-box-bg"></div>
@@ -48,7 +58,7 @@
           <!-- DREAM -->
           <div class="project-box" id="link-TINA">
               <div class="TINA">
-                  <h2>Reading:</h2>
+                  <h2>reading:</h2>
                   <h3>"Mismatch" by Kat Holmes</h3>
               </div>
           </div>
@@ -57,71 +67,104 @@
       </div>
     </div>
 
-  <div class = "wrap" ID = "experiences">
+  <div id="projects">
+    <div class = "offset">
+    </div>
     <div class = "boxes" id="boxes-vert">
-      <h1 class = "oi" id="h1-2">Projects</h1>
+      <h1 class = "oi">projects</h1>
+      <!-- <div class = "offset">
+      </div> -->
       <!-- Los Angeles Times -->
+      <a id = "link" href="projects/LAT.html" onmouseover="changeBackgroundLAT();" onmouseout="document.getElementById('overlay').innerHTML = '';">
 
-      <a href="pages/vert-LAT.html" onmouseover="changeBackground('LAT');" onmouseout="document.getElementById('overlay').innerHTML = '';">
       <div class="project-box" id="box-vert">
           <div class="project-box-desc">
               <h2>Los Angeles Times</h2>
-              <h3> app redesign, Chrome plugin design </h3>
+              <h3> PM for app redesign</h3>
           </div>
       </div>
+          <img  src="images/LAT/6.png" ID ="mirror">
+      </a>
+
+    <!-- Quoteworthy -->
+    <a id = "link" href="projects/quoteworthy.html" onmouseover="changeBackgroundQ();" onmouseout="document.getElementById('overlay').innerHTML = '';">
+      <div class="project-box" id="box-vert">
+          <div class="FUN">
+              <h2>Quoteworthy</h2>
+              <h3>Chrome plugin for news-sharing</h3>
+          </div>
+      </div>
+      <img  src="images/quoteworthy/1.png" ID ="mirror">
     </a>
-    <a href="pages/vert-LAT.html" onmouseover="changeBackground('LAT');" onmouseout="document.getElementById('overlay').innerHTML = '';">
-      <!-- TINA Healthcare -->
+
+    <a id = "link" href="projects/figma.html" onmouseover="changeBackgroundF();" onmouseout="document.getElementById('overlay').innerHTML = '';">
+      <div class="project-box" id="box-vert">
+          <div class="FUN">
+              <h2>Figma Redesign</h2>
+              <h3>a deep dive into the object selection feature</h3>
+          </div>
+      </div>
+      <img  src="images/figma/1.png" ID ="mirror">
+
+    </a>
+
+    <!-- TINA Healthcare -->
+    <!-- <a href="pages/vert-LAT.html" onmouseover="changeBackground('LAT');" onmouseout="document.getElementById('overlay').innerHTML = '';">
       <div class="project-box" id="box-vert">
           <div class="TINA">
               <h2>TINA Healthcare</h2>
               <h3>tampon applicators for disabled women</h3>
           </div>
       </div>
-    </a>
+    </a> -->
 
       <!-- EDC -->
-      <div class="project-box" id="box-vert">
+      <!-- <div class="project-box" id="box-vert">
           <div class="EDC">
               <h2>Emergency Design Collective</h2>
               <h3>PPE education for makers</h3>
           </div>
-      </div>
-
-      <!-- Ctrl+F(un) -->
-      <div class="project-box" id="box-vert">
-          <div class="FUN">
-              <h2>Ctrl-F(ree)</h2>
-              <h3>Chrome plugin for dyslexic readers</h3>
-          </div>
-      </div>
+      </div> -->
 
       <!-- Social Media -->
-      <div class="project-box" id="box-vert">
+      <!-- <div class="project-box" id="box-vert">
           <div class="SOCIAL">
               <h2>Social Media Campaigns</h2>
               <h3>how we raised $400k+ in relief funds</h3>
           </div>
+      </div> -->
+      <div class = "offset">
       </div>
+    </div>
 
+    <div id="projects" style="background-color:#C8CFDD;">
+      <div class = "offset">
+      </div>
+      <a href="projects/more.html" onmouseover="changeBackgroundM();" onmouseout="document.getElementById('overlay').innerHTML = '';">
       <!-- More -->
       <div class="project-box" id="box-vert">
           <div class="SOCIAL">
               <h2>More</h2>
-              <h3>graphics, writing, etc.</h3>
+              <h3>non case-studies I'm proud of</h3>
           </div>
       </div>
+    </a>
 
-    </div>
-    <div id = "overlay">
+    <!-- <div id = "overlay">
+    </div> -->
+    <div class = "offset">
     </div>
   </div>
 
-  <script type="text/javascript">
-         function changeBackground(what) {
+  </div>
 
-           //case "LAT":
+  <script type="text/javascript">
+         function changeBackgroundLAT() {
              document.getElementById("overlay").innerHTML = '<img src="images/LAT/bg.png">';
+         }
+
+         function changeBackgroundQ() {
+             document.getElementById("overlay").innerHTML = '<img src="images/quoteworthy/bg.png">';
          }
 
    </script>
@@ -133,14 +176,8 @@
   </div>
 
  <footer>
-   <a href="https://www.linkedin.com/in/jianna-so/" target="_blank" class="page-footer">
-     LinkedIn
-   </a>
-   <a href="resume/resume.pdf" target="_blank" class="page-footer">
-     Resume
-   </a>
-   <a class="page-footer" id="wide-foot">
-     Coded with love & this Spotify playlist
+   <a class="page-footer" id="wide-foot" href="https://open.spotify.com/playlist/140RUPSrq2p3nWF8yaIGal?si=yQ7hyMJsSBS7N8DT5HPMBA" target="_blank">
+     coded with love & this Spotify playlist
    </a>
  </footer>
 

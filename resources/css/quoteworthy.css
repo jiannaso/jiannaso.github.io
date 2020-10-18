@@ -1,0 +1,60 @@
+ul li::before {
+  color: #087DA2;
+}
+
+.write-up {
+  background: #131313;
+  color: white;
+}
+
+.intro {
+  color: white;
+  /* background: linear-gradient(to bottom, #005a77 0%, #087da2 100%); */
+  background: #131313;
+}
+
+h2 {
+  color: #FFECBB;
+}
+
+.text h2 {
+  color: #FFCA41;
+}
+
+b {
+  color: #087DA2;
+}
+
+#new {
+  color: #4F5152;
+  background-color: #FFCA41;
+  width: 103px;
+}
+
+#caption {
+  color: #EE6C49;
+}
+
+#feature {
+  color: #CB9200;
+}
+
+.nav h1, .nav h3 {
+  color: #131313;
+}
+
+.footer-box {
+  background-color: black;
+}
+
+footer a {
+  color: white;
+}
+
+.offset {
+  background-color: #131313;
+}
+
+footer a:hover {
+  color: white;
+}

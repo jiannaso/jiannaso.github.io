@@ -1,16 +1,23 @@
 /* SETUP */
-}
 
 /* BODY */
 body {
   background-color: white;
+
+}
+
+.nav h1, .nav h3 {
+  color: #ABEBFF;
 }
 #overlay {
   z-index: 1;
 }
 
-.offset {
-  height: 50px;
+.intro {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  background: linear-gradient(to bottom, #005a77 0%, #087da2 100%);
 }
 
 /* BOXES */
@@ -23,7 +30,7 @@ body {
   position:static;
   top: 100px;
   width: 200px;
-  height: 150px;
+  height: 120px;
 }
 
 /* HOR */
@@ -74,14 +81,16 @@ img {
 /* TEXT */
 h1 {
   display: block;
-  font-size: 2rem;
+  font-size: 2.25rem;
   text-align: center;
-  padding-top: 5%;
+  margin-bottom: 25px;
+  /* padding-top: 5%; */
 }
 
 h2 {
   text-align: center;
   font-size: 1.5rem;
+  color: #ABEBFF;
 }
 
 h3 {
@@ -102,10 +111,10 @@ h3 {
 
 .text h2 {
   font-family: Karla;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   position: relative;
   text-align: left;
-  color: #A53654;
+  color: #087DA2;
   bottom: 10px;
 }
 
@@ -134,23 +143,54 @@ li {
 
 ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #164085; /* Change the color */
+  color: #087DA2; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
+/* blue */
 b {
   font-family: Karla;
   font-weight: bold;
-  color: #164085;
+  color: #087DA2;
 }
 
 #feature {
-  color: #164085;
+  font-style:italic;
+  color: #005A77;
+  font-size: 1.5rem;
+}
+
+#new {
+  font-size: 1rem;
+  color: #EE6C49;
+  font-family: Karla;
+}
+
+#caption {
+  font-style: italic;
+  text-align: center;
+  font-size: 1rem;
+  color: #EE6C49;
+  font-family: Karla;
+  margin: auto;
+  width: 60%;
 }
 
 #dark {
   background: white;
+}
+
+#wide-foot {
+  width: 10%;
+}
+
+footer a {
+  color: white;
+}
+
+.footer-box {
+  background-color: #005a77;
 }
