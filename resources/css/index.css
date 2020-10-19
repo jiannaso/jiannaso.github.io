@@ -43,6 +43,14 @@ html, body {
   width: 100%;
 }
 
+.intro h1 {
+  margin-bottom: 30px;
+}
+
+.intro h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 .offset {
   height: 50px;
 }
@@ -216,7 +224,7 @@ h1 {
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   z-index: 5;
 }
 
@@ -330,7 +338,7 @@ img {
 
 #link:hover {
   /* opacity: 50%; */
-  transform: scale(1.055);
+  transform: scale(1.05);
   color: #8D1D3E;
 }
 
