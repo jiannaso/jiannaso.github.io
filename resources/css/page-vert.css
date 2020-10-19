@@ -193,6 +193,10 @@ footer a {
   color: white;
 }
 
+footer a:hover {
+  color: white;
+}
+
 .footer-box {
   background-color: #005a77;
 }

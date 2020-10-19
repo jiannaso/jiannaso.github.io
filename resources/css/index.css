@@ -218,14 +218,13 @@ h3 {
   bottom: 5px;
 }
 
+#footer-font {
+  padding: 2% 0;
+}
 em {
   font-family: Karla;
 }
 /* EXPERIENCES */
-
-#projects {
-  background: #EAC7D1;
-}
 
 .boxes {
   display: flex;

@@ -1,0 +1,21 @@
+.write-up {
+  /* background: linear-gradient(to bottom, #00321F 0%, #007E4E 100%); */
+  background: #00321F;
+  color: white;
+}
+
+.offset {
+  background: inherit;
+}
+
+.nav h1, .nav h3 {
+  color: #00321F;
+}
+
+.text h2 {
+  color: #59B290;
+}
+
+body {
+  background-size:cover;
+}

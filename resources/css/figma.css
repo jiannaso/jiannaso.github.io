@@ -6,6 +6,10 @@ img {
   padding: 1% 0;
 }
 
+body {
+  background-size:contain;
+}
+
 ol li::before {
   color: #A259FF;
 }

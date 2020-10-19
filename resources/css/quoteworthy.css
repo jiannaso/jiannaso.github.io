@@ -7,6 +7,11 @@ ul li::before {
   color: white;
 }
 
+body {
+  background-size:contain;
+  background-color: #FFCA41;
+}
+
 .intro {
   color: white;
   /* background: linear-gradient(to bottom, #005a77 0%, #087da2 100%); */
