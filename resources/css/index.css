@@ -173,7 +173,8 @@ a:hover {
   display: inline-block;
   width: 450px;
   height: auto;
-  margin: 3% 3%;
+  margin: 2% 3%;
+  transition: 1s;
 }
 
 #mouse h2, #mouse h3 {
@@ -184,6 +185,10 @@ a:hover {
 
 #mouse h3 {
   line-height: 20px;
+}
+
+#mouse:hover {
+  transform: scale(1.04);
 }
 /* red */
 footer a {
@@ -258,7 +263,7 @@ em {
   position: relative;
   display: inline-block;
   width: 325px;
-  padding: 2% 0 0 0;
+  padding: 0 0 0 0;
   flex-wrap: wrap;
   flex-shrink: 2;
   z-index: 10;
@@ -273,7 +278,7 @@ em {
 
 #box-vert {
   width: 100% !important;
-  margin-bottom: 1%;
+  margin: 2% 1% 0 0;
 }
 
 #box-vert h2 {
@@ -314,7 +319,6 @@ img {
   align: center;
   /* padding-left: 0; */
   margin-bottom: 20px;
-
   margin-left: auto;
     margin-right: auto;}
 
