@@ -232,6 +232,7 @@ h3 {
   opactity: 50%;
   font-weight: normal;
   position: relative;
+  margin: 1%;
   /* bottom: 5px; */
 }
 
@@ -257,23 +258,12 @@ em {
   position: relative;
   display: inline-block;
   width: 325px;
-  height: 90px;
-  /* padding-bottom: 2%; */
+  padding: 2% 0 0 0;
   flex-wrap: wrap;
   flex-shrink: 2;
   z-index: 10;
   margin: 0;
 }
-
-.project-box-hor h2, .project-box-hor h3 {
-  text-align: left;
-  /* line-height: 20px; */
-}
-
-.project-box-hor h3 {
-  line-height: 1.5rem;
-}
-
 
 #boxes-vert {
   flex-direction: column;
@@ -283,14 +273,16 @@ em {
 
 #box-vert {
   width: 100% !important;
+  margin-bottom: 1%;
 }
 
 #box-vert h2 {
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 #box-vert h3 {
-  bottom: 5px;
+  /* bottom: 5px; */
 }
 
 #projects {
@@ -321,8 +313,7 @@ img {
   height: auto;
   align: center;
   /* padding-left: 0; */
-  padding-top: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   margin-left: auto;
     margin-right: auto;}
@@ -336,7 +327,7 @@ img {
 #link:hover {
   /* opacity: 50%; */
   transform: scale(1.055);
-  color: #4F5152;
+  color: #8D1D3E;
 }
 
 video {
