@@ -138,6 +138,7 @@ li {
   width: 90%;
   list-style-type: none;
   bottom: 20px;
+  margin: 0;
 }
 
 ul li::before {
@@ -146,7 +147,7 @@ ul li::before {
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.25em; /* Also needed for space (tweak if needed) */
 }
 
 /* blue */
@@ -186,7 +187,7 @@ b {
 }
 
 #wide-foot {
-  width: 10%;
+  width: 150px;
 }
 
 footer a {

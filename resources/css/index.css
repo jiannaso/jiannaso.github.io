@@ -153,14 +153,10 @@ footer, .page-content::after {
   /* cursor: url("../../images/cloud.png") !important; */
 }
 
-.page-footer {
-  width: 100%;
-  text-align: center;
-  margin:0;
-}
-
 #wide-foot {
   width: 100%;
+  text-align: center;
+  margin:0 10px;
 }
 
 /* LINKS */
@@ -198,12 +194,16 @@ a:hover, #link:hover {
 #mouse h2, #mouse h3 {
   text-align: left;
   margin: 0;
-  padding: 1% 3%;
+  padding: 1% 0px;
 }
 
 #mouse h3 {
   line-height:25px;
   /* font-size: 1.rem; */
+}
+
+#mouse img {
+  margin-top: 10px; */
 }
 
 /* #mouse:hover {
