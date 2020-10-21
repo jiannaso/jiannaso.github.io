@@ -194,7 +194,7 @@ a:hover, #link:hover {
 .mouse h2, .mouse h3 {
   text-align: left;
   margin: 0;
-  padding: 1% 0px;
+  padding: 5px 0px;
 }
 
 .mouse h3 {
@@ -208,12 +208,12 @@ a:hover, #link:hover {
 
 #full {
   width: 85%;
-  margin: 1% 3%;
+  /* margin: 1% 3%; */
 }
 
-/* #full h2, #full h3 {
-  width: 75%;
-} */
+#full h2, #full h3 {
+  /* margin: 5px 0px; */
+}
 
 /* #mouse:hover {
   transform: scale(1.04);
