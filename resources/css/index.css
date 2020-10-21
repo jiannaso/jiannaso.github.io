@@ -36,7 +36,7 @@ html, body {
 
 
 .nav h1, .nav h3 {
-  color: #727272;
+  color: #212121;
 }
 
 .intro {
@@ -276,7 +276,7 @@ h3 {
 
 #footer-font {
   padding: 3% 1% 0 0;
-  color: #727272;
+  color: #212121;
   width: 90%;
   margin: auto;
 }
