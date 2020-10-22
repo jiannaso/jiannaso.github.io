@@ -18,8 +18,6 @@
   <div class = "page-content" >
 
     <!-- INTRO -->
-    <a name="intro"></a>
-
     <div class = "wrap" id="top">
       <div class = "nav">
         <h1>jianna so</h1>
@@ -31,10 +29,12 @@
         </a>
       </div>
     </div>
+    <div class="intro-offset"></div>
 
     <!-- CONTENT -->
     <div class = "write-up">
-      <div class ="intro">
+      <!-- <a name="intro"></a> -->
+      <div class ="intro" id="intro">
         <h1>Figma Redesign</h1>
         <hr width="20%" size="2" align="center" color="#B57BFF">
 
@@ -79,303 +79,303 @@
   </div>
   <!-- The Design Challenge -->
   <div class = "text">
-    <h4 id="caption">*In this case study, I use one of my former projects of a BART App Redesign to envision the solution.*<h4>
+    <h4 id="caption">*In this case study, I use one of my former projects of a BART App Redesign to envision the solution.*</h4>
+    <div class="intro-offset"></div>
 
-    <h1>The Design Challenge</h1>
-    <h2>
-      How can a design platform, made for & loved by designers, be improved?
-    </h2>
-    <p>
-      When presented with the opportunity of a design print with the various Kleiner Perkins partners, I was most excited to look at Figma. I’ve started using it for almost everything: work projects, user testing, personal vector art, and even to create my resume. Its collaboration and sharing features are unparalleled and have redefined design teams. I believe that working towards these design values and making tools for designers that are truly intuitive and approachable is a small first step that can combat the lack of diversity in design.
-      <br><br>
-      Though excited, I was also nervous– navigating a design project completely on my own is never ideal, since I believe incorporating as many voices as possible is key to truly inclusive design.
-    </p>
-
-    <h1>The Timeline</h1>
-    <h2>
-      Over the course of this design sprint, I:
-    </h2>
-    <ul>
-      <li>
-        <b>DAY 1:</b> Surveyed 5 different users about their Figma experiences. Formed my design question. Conducted further research and analysis through competitor studies and task flows.
-      </li>
-      <li>
-        <b>DAY 2: </b>  Created low-fi mockups that I tested with 2 of my interviewees.
-      </li>
-      <li>
-        <b>DAY 3:</b> Finalized a high fidelity mockup. Coded up this case study. Rested after a jam packed Indigenous Peoples’ Day weekend before my first week of work as a designer at the U.S. Census Bureau’s Open Innovation Lab!
-      </li>
-    </ul>
-    <!-- Prelim Research -->
-    <a name="research"></a>
-    <h1>The Interviewees</h1>
-    <h2>
-      To cast a wide net, I interviewed 5 unique users.
-    </h2>
-    <img src="../images/figma/2.png">
-    <p>
-      Common gain points around what they loved about Figma were:
-    </p>
-    <ul>
-      <li>
-        The immense opportunity for <b>real time and virtually unlimited collaboration</b>. No more need to send over individual files to team members.
-      </li>
-      <li>
-      <b>Flexibility</b> around sharing, components, and embedding.
-      <li>
-        <b>Plugins</b> to increase functionality and build community.
-      </li>
-    </ul>
-
-    <p> Specific pain points they noted were:
-    </p>
-    <ul>
-      <li>
-        Some elements <b>not scaling properly</b> by default as they’re expanded.
-      </li>
-      <li>
-        Text does not have <b>font previews</b>.
-      </li>
-      <li>
-      <b>Shortcuts</b> are hard to learn and remember.
-      <li>
-        No way to <b>browse and learn from</b> others’ work.
-      </li>
-    </ul>
-
-    <h1>Narrowing the design scope</h1>
-    <h2>Elle & Gileen became my "target users".</h2>
-    <p>
-      Since they were both users extremely well versed in design and design software, but had little and extensive experience with Figma respectively, I thought that their perspective on the usability issues defined a user group my solution would be focused on and a user persona that makes up a good portion Figma’s current user base: users migrating from different design platforms that are relatively new to Figma’s interface.
-    </p>
-    <img src="../images/figma/3.png">
-    <h2>
-      These insights raised 2 "how might we" questions:
-    </h2>
-    <ul>
-      <li>
-        <b>How might we reorganize the left sidebar</b> to make keeping track of and selecting objects more intuitive, especially in terms of matching users’ goals and mental models of their projects?
-      </li>
-      <li>
-        <b>How might we enhance the sharing feature</b> to emphasize works-in-progress and streamline the feedback process for both novice and experienced designers?
-      </li>
-    </ul>
-    <p>
-      <h2>I moved forward with the first question & focused on object selection.</h2>
-      <p>The 2nd question felt more like imagining an entirely new feature rather than looking at an existing one and it seemed like an exciting challenge to rethink the seemingly simple feature of object selection.
-    </p>
-    <a name="analysis"></a>
-    <h1>A Closer Look at the Left Sidebar</h1>
-    <h2>The current sidebar</h2>
-    <p>
-      Currently, the left sidebar’s two sections provide distinct but extreme levels of organization: the top contains a high level view of pages that often separate iterations or non-connected frames, while the bottom contains a detailed tree view of objects only through text description.
-    </p>
-    <img src="../images/figma/4.png">
-    <h2>Pain point: too much vertical information</h2>
-    <p>
-      Users’ issue around the sidebar’s functionality started with the interaction with <b>layers</b>– both users indicated that the process of clicking into layers or groups was confusing, especially when they were first new to the app.
-
-      <br><br>This process <b>puts the onus on users</b> to constantly regroup and rename layers, and becomes increasingly difficult as more objects, layers, and frames are added to the design. They often lost track of what each group consisted of, since the vertical layout gave no other physical indicators of certain layers or groups, which is mirrored in the Select Layer menu and keyboard shortcuts as well.
-    </p>
-    <img src="../images/figma/5.png">
-    <h4 id="caption">Select layer graphic from Figma's tutorial<h4>
-
-      <h2> A repetitive & unclear task flow</h2>
+      <h1>The Design Challenge</h1>
+      <h2>
+        How can a design platform, made for & loved by designers, be improved?
+      </h2>
       <p>
-        Elle shared a key insight that when she selects a group, the information she is looking for is often how the objects within that group are organized, instead of simply the objects’s name and z-index ordering, as the tree view provides.
+        When presented with the opportunity of a design print with the various Kleiner Perkins partners, I was most excited to look at Figma. I’ve started using it for almost everything: work projects, user testing, personal vector art, and even to create my resume. Its collaboration and sharing features are unparalleled and have redefined design teams. I believe that working towards these design values and making tools for designers that are truly intuitive and approachable is a small first step that can combat the lack of diversity in design.
         <br><br>
-        Because of the lack of organization, she shared that when selecting an object that is nested within many groups, she simply continues clicking until it is isolated, without using the layers’ tree model at all, represented in the task flow and gif below.
+        Though excited, I was also nervous– navigating a design project completely on my own is never ideal, since I believe incorporating as many voices as possible is key to truly inclusive design.
       </p>
-      <img src="../images/figma/6.png">
-      <h4 id="caption">Above: Elle's current task flow. Below: Visual aspect of clicking into a deep object.<h4>
 
-      <img src="../images/figma/2.gif">
+      <h1>The Timeline</h1>
+      <h2>
+        Over the course of this design sprint, I:
+      </h2>
+      <ul>
+        <li>
+          <b>DAY 1:</b> Surveyed 5 different users about their Figma experiences. Formed my design question. Conducted further research and analysis through competitor studies and task flows.
+        </li>
+        <li>
+          <b>DAY 2: </b>  Created low-fi mockups that I tested with 2 of my interviewees.
+        </li>
+        <li>
+          <b>DAY 3:</b> Finalized a high fidelity mockup. Coded up this case study. Rested after a jam packed Indigenous Peoples’ Day weekend before my first week of work as a designer at the U.S. Census Bureau’s Open Innovation Lab!
+        </li>
+      </ul>
+      <!-- Prelim Research -->
+      <a name="research"></a>
+      <h1>The Interviewees</h1>
+      <h2>
+        To cast a wide net, I interviewed 5 unique users.
+      </h2>
+      <img src="../images/figma/2.png">
+      <p>
+        Common gain points around what they loved about Figma were:
+      </p>
+      <ul>
+        <li>
+          The immense opportunity for <b>real time and virtually unlimited collaboration</b>. No more need to send over individual files to team members.
+        </li>
+        <li>
+          <b>Flexibility</b> around sharing, components, and embedding.
+          <li>
+            <b>Plugins</b> to increase functionality and build community.
+          </li>
+        </ul>
 
-    <h1>How do competitors approach this?</h1>
-    <h2>Many have similar layer & object navigation.</h2>
-    <p>
-Across the platforms I had access to on my personal laptop (Figma, Illustrator, and Gravit Designer), I noted that none of these applications had visual indicators of the position of objects within a group, though there was a marked difference in the way Figma allows users to hover only over groups as a whole while Illustrator still allows users to hover over individual objects even if they are in a group. I thought the latter was more helpful, since it displayed specific positions without clicking in, though it was still visually complicated.
-</p>
+        <p> Specific pain points they noted were:
+        </p>
+        <ul>
+          <li>
+            Some elements <b>not scaling properly</b> by default as they’re expanded.
+          </li>
+          <li>
+            Text does not have <b>font previews</b>.
+          </li>
+          <li>
+            <b>Shortcuts</b> are hard to learn and remember.
+            <li>
+              No way to <b>browse and learn from</b> others’ work.
+            </li>
+          </ul>
 
-<img src="../images/figma/8.png">
-  <a name="ideation"></a>
-  <h1>Ideation & Prototyping</h1>
-  <h2>Visualizing parent, child, & sibling relationships</h2>
-  <p>
-    When I was first learning Figma, I found a page on Parent, Child, and Sibling relationships especially helpful. When I showed Elle this graphic, she immediately exclaimed “Yes! This makes so much more sense to me.” That moment was really exciting, since it displayed an effective visual representation of Elle’s mental map of layer and group organization. More broadly, it made sense to make a design software contain more visual information such as this.
-  </p>
-  <img src="../images/figma/7.png">
-<h2>Goals & constraints</h2>
-  <p>
-    In thinking about my own approach to this design, I created 3 key objectives, which translated into constraints:
-  </p>
-  <ul>
-    <li>
-      <b>Empower users</b> to access any object in less than 3 clicks, starting with clicking on the frame that contains the object.
-    </li>
-    <li>
-      <b>Utilize colors and simplified shapes</b> to communicate organization.
-    </li>
-    <li>
-      <b>Fit seamlessly</b> into Figma’s existing design.
-    </li>
-  </ul>
-  <h2>Putting ideas onto paper & pixels</h2>
-  <p>
-    Given this insight into the layers experience, I mapped out the ideal task flow and created sketches for the location of this solution.
-  </p>
-  <img src="../images/figma/9.png">
-  <img src="../images/figma/12.png">
+          <h1>Narrowing the design scope</h1>
+          <h2>Elle & Gileen became my "target users".</h2>
+          <p>
+            Since they were both users extremely well versed in design and design software, but had little and extensive experience with Figma respectively, I thought that their perspective on the usability issues defined a user group my solution would be focused on and a user persona that makes up a good portion Figma’s current user base: users migrating from different design platforms that are relatively new to Figma’s interface.
+          </p>
+          <img src="../images/figma/3.png">
+          <h2>
+            These insights raised 2 "how might we" questions:
+          </h2>
+          <ul>
+            <li>
+              <b>How might we reorganize the left sidebar</b> to make keeping track of and selecting objects more intuitive, especially in terms of matching users’ goals and mental models of their projects?
+            </li>
+            <li>
+              <b>How might we enhance the sharing feature</b> to emphasize works-in-progress and streamline the feedback process for both novice and experienced designers?
+            </li>
+          </ul>
+            <h2>I moved forward with the first question & focused on object selection.</h2>
+            <p>The 2nd question felt more like imagining an entirely new feature rather than looking at an existing one and it seemed like an exciting challenge to rethink the seemingly simple feature of object selection.
+            </p>
+            <a name="analysis"></a>
+            <h1>A Closer Look at the Left Sidebar</h1>
+            <h2>The current sidebar</h2>
+            <p>
+              Currently, the left sidebar’s two sections provide distinct but extreme levels of organization: the top contains a high level view of pages that often separate iterations or non-connected frames, while the bottom contains a detailed tree view of objects only through text description.
+            </p>
+            <img src="../images/figma/4.png">
+            <h2>Pain point: too much vertical information</h2>
+            <p>
+              Users’ issue around the sidebar’s functionality started with the interaction with <b>layers</b>– both users indicated that the process of clicking into layers or groups was confusing, especially when they were first new to the app.
 
+              <br><br>This process <b>puts the onus on users</b> to constantly regroup and rename layers, and becomes increasingly difficult as more objects, layers, and frames are added to the design. They often lost track of what each group consisted of, since the vertical layout gave no other physical indicators of certain layers or groups, which is mirrored in the Select Layer menu and keyboard shortcuts as well.
+            </p>
+            <img src="../images/figma/5.png">
+            <h4 id="caption">Select layer graphic from Figma's tutorial</h4>
 
-  <p>
-    I also mocked up the graphical representation of groups, shown below. Each color represents a different nested group, and dotted lines indicate groupings. All vector shapes' fill are removed, and images were turned into a solid fill shape.
-  </p>
-  <img src="../images/figma/10.png">
+              <h2> A repetitive & unclear task flow</h2>
+              <p>
+                Elle shared a key insight that when she selects a group, the information she is looking for is often how the objects within that group are organized, instead of simply the objects’s name and z-index ordering, as the tree view provides.
+                <br><br>
+                Because of the lack of organization, she shared that when selecting an object that is nested within many groups, she simply continues clicking until it is isolated, without using the layers’ tree model at all, represented in the task flow and gif below.
+              </p>
+              <img src="../images/figma/6.png">
+              <h4 id="caption">Above: Elle's current task flow. Below: Visual aspect of clicking into a deep object.</h4>
 
-<h2>Moving away from the left sidebar</h2>
-  <p>
-When I showed the wireframes below to Gileen, she said she would prefer to zoom in no matter the location, especially for horizontal frames like website mockups. I moved forward with the leftmost design to address this.
-</p>
-<img src="../images/figma/11.png">
+                <img src="../images/figma/2.gif">
 
-<a name="solution"></a>
-<h1>Final Prototype: Group View</h1>
-<h2>Access any object within 3 clicks*.</h2>
-<p><em>*Once colors are customized.</em><br><br>
-  The following solution was tested through interviews with Gileen and Elle.</p>
+                <h1>How do competitors approach this?</h1>
+                <h2>Many have similar layer & object navigation.</h2>
+                <p>
+                  Across the platforms I had access to on my personal laptop (Figma, Illustrator, and Gravit Designer), I noted that none of these applications had visual indicators of the position of objects within a group, though there was a marked difference in the way Figma allows users to hover only over groups as a whole while Illustrator still allows users to hover over individual objects even if they are in a group. I thought the latter was more helpful, since it displayed specific positions without clicking in, though it was still visually complicated.
+                </p>
 
-<h4 id = "new">STEP 1<h4>
-<h2 id="feature">
-  Select a Frame.
-</h2>
-<p>
-  A new addition to the right sidebar will appear.
-</p>
-<img src="../images/figma/s1.png">
-
-<h4 id = "new">STEP 2<h4>
-<h2 id="feature">
-  Turn on Group View through the sidebar or by pressing "G".
-</h2>
-<p>
-  This will reveal a simplified visual representation of the frame’s objects. Understand which groups are associated with each color on the right sidebar.
-</p>
-<img src="../images/figma/s2.png">
-
-<h4 id = "new">STEP 3<h4>
-<h2 id="feature">
-  Toggle which group’s colors you want to see present on the frame.
-</h2>
-<p>
-</p>
-<img src="../images/figma/s3.png">
-
-
-<h4 id = "new">STEP 4<h4>
-<h2 id="feature">
-  Access any object within the frame through one click.
-</h2>
-<p>
-</p>
-<img src="../images/figma/s4.png">
-
-<h4 id = "new">STEP 5<h4>
-<h2 id="feature">
-  Customize colors and names in Group View.
-</h2>
-<p>
-</p>
-<img src="../images/figma/s5.gif">
-
-<h1>Elle's Feedback</h1>
-<h2>
-  Elle loved:
-</h2>
-<ul>
-  <li>
-    knowing what items are grouped together and nested within each other through the <b>clear color differentiaion</b>, especially since the project used as an example was one she was unfamiliar with.
-  </li>
-  <li>
-    <b>hiding layers</b>– ”Sometimes I accidentally click on other assets and this would help me isolate the right ones”.
-  </li>
-  <li>
-    feeling <b>comfortable</b> in using it since it fit the Figma’s existing style and workflow.
-  </li>
-</ul>
-<h2>
-  Elle wished that:
-</h2>
-<ul>
-  <li>
-    she could <b>access any object</b> without turning “Group View” on.
-  </li>
-  <li>
-    “group View” had an option to <b>turn off the dotted lines</b>, since the different color made the nested group noticeable enough to her.
-  </li>
-</ul>
-<h2>
-  If I had more time, this is where the iterative design process would start!
-</h2>
-
-<h1>Moving Forward</h1>
-<img src="../images/figma/reflection.png">
-
-<h2>
-  Feasibility studies
-</h2>
-<p>
-  The graphical view I mocked up would need to be achievable through a program that analyzes and edits vector shapes, so working with engineers to verify software capabilities and resources will be crucial for implementation.
-</p>
-<h2>
-  Testing with diverse and differently abled users
-</h2>
-<p>
-  Testing with more diverse users would provide insight on how to match others’ varying mental models of groups. I would be especially interested in understanding how designers of different abilities use Figma, such as how screen readers interact with the features and what preferences between keyboard shortcuts and mouse clicks looks like. My hope is that features like “Group View” that require less clicks would also benefit users with limited dexterity or muscle strength.
-</p>
-<!--
-<h2>
-  What I would've done differently
-</h2>
-<p>
-</p> -->
-<a href="https://jiannaso.com/projects/kleiner-perkins">
-<img id="link" src="../images/figma/next.png">
-</a>
+                <img src="../images/figma/8.png">
+                <a name="ideation"></a>
+                <h1>Ideation & Prototyping</h1>
+                <h2>Visualizing parent, child, & sibling relationships</h2>
+                <p>
+                  When I was first learning Figma, I found a page on Parent, Child, and Sibling relationships especially helpful. When I showed Elle this graphic, she immediately exclaimed “Yes! This makes so much more sense to me.” That moment was really exciting, since it displayed an effective visual representation of Elle’s mental map of layer and group organization. More broadly, it made sense to make a design software contain more visual information such as this.
+                </p>
+                <img src="../images/figma/7.png">
+                <h2>Goals & constraints</h2>
+                <p>
+                  In thinking about my own approach to this design, I created 3 key objectives, which translated into constraints:
+                </p>
+                <ul>
+                  <li>
+                    <b>Empower users</b> to access any object in less than 3 clicks, starting with clicking on the frame that contains the object.
+                  </li>
+                  <li>
+                    <b>Utilize colors and simplified shapes</b> to communicate organization.
+                  </li>
+                  <li>
+                    <b>Fit seamlessly</b> into Figma’s existing design.
+                  </li>
+                </ul>
+                <h2>Putting ideas onto paper & pixels</h2>
+                <p>
+                  Given this insight into the layers experience, I mapped out the ideal task flow and created sketches for the location of this solution.
+                </p>
+                <img src="../images/figma/9.png">
+                <img src="../images/figma/12.png">
 
 
-<div class = "offset">
-</div>
-<div class = "offset">
-</div>
-          <!-- END OF TEXT -->
-        </div>
+                <p>
+                  I also mocked up the graphical representation of groups, shown below. Each color represents a different nested group, and dotted lines indicate groupings. All vector shapes' fill are removed, and images were turned into a solid fill shape.
+                </p>
+                <img src="../images/figma/10.png">
+
+                <h2>Moving away from the left sidebar</h2>
+                <p>
+                  When I showed the wireframes below to Gileen, she said she would prefer to zoom in no matter the location, especially for horizontal frames like website mockups. I moved forward with the leftmost design to address this.
+                </p>
+                <img src="../images/figma/11.png">
+
+                <a name="solution"></a>
+                <h1>Final Prototype: Group View</h1>
+                <h2>Access any object within 3 clicks*.</h2>
+                <p><em>*Once colors are customized.</em><br><br>
+                  The following solution was tested through interviews with Gileen and Elle.</p>
+
+                  <h4 id = "new">STEP 1</h4>
+                    <h2 id="feature">
+                      Select a Frame.
+                    </h2>
+                    <p>
+                      A new addition to the right sidebar will appear.
+                    </p>
+                    <img src="../images/figma/s1.png">
+
+                    <h4 id = "new">STEP 2</h4>
+                      <h2 id="feature">
+                        Turn on Group View through the sidebar or by pressing "G".
+                      </h2>
+                      <p>
+                        This will reveal a simplified visual representation of the frame’s objects. Understand which groups are associated with each color on the right sidebar.
+                      </p>
+                      <img src="../images/figma/s2.png">
+
+                      <h4 id = "new">STEP 3</h4>
+                        <h2 id="feature">
+                          Toggle which group’s colors you want to see present on the frame.
+                        </h2>
+                        <p>
+                        </p>
+                        <img src="../images/figma/s3.png">
 
 
-        <!-- FOOTER -->
-        <div class = footer-box>
-        </div>
-      </div>
-    </div>
+                        <h4 id = "new">STEP 4</h4>
+                          <h2 id="feature">
+                            Access any object within the frame through one click.
+                          </h2>
+                          <p>
+                          </p>
+                          <img src="../images/figma/s4.png">
 
-    <footer>
-      <a class="page-footer" id="wide-foot" href="#intro">
-        INTRO
-      </a>
-      <a class="page-footer" id="wide-foot" href="#research">
-        RESEARCH
-      </a>
-      <a class="page-footer" id="wide-foot" href="#analysis">
-        ANALYSIS
-      </a>
-      <a class="page-footer" id="wide-foot" href="#ideation">
-        IDEATION
-      </a>
-      <a class="page-footer" id="wide-foot" href="#solution">
-        SOLUTION
-      </a>
-    </footer>
+                          <h4 id = "new">STEP 5</h4>
+                            <h2 id="feature">
+                              Customize colors and names in Group View.
+                            </h2>
+                            <p>
+                            </p>
+                            <img src="../images/figma/s5.gif">
 
-  </body>
+                            <h1>Elle's Feedback</h1>
+                            <h2>
+                              Elle loved:
+                            </h2>
+                            <ul>
+                              <li>
+                                knowing what items are grouped together and nested within each other through the <b>clear color differentiaion</b>, especially since the project used as an example was one she was unfamiliar with.
+                              </li>
+                              <li>
+                                <b>hiding layers</b>– ”Sometimes I accidentally click on other assets and this would help me isolate the right ones”.
+                              </li>
+                              <li>
+                                feeling <b>comfortable</b> in using it since it fit the Figma’s existing style and workflow.
+                              </li>
+                            </ul>
+                            <h2>
+                              Elle wished that:
+                            </h2>
+                            <ul>
+                              <li>
+                                she could <b>access any object</b> without turning “Group View” on.
+                              </li>
+                              <li>
+                                “group View” had an option to <b>turn off the dotted lines</b>, since the different color made the nested group noticeable enough to her.
+                              </li>
+                            </ul>
+                            <h2>
+                              If I had more time, this is where the iterative design process would start!
+                            </h2>
 
-  </html>
+                            <h1>Moving Forward</h1>
+                            <img src="../images/figma/reflection.png">
+
+                            <h2>
+                              Feasibility studies
+                            </h2>
+                            <p>
+                              The graphical view I mocked up would need to be achievable through a program that analyzes and edits vector shapes, so working with engineers to verify software capabilities and resources will be crucial for implementation.
+                            </p>
+                            <h2>
+                              Testing with diverse and differently abled users
+                            </h2>
+                            <p>
+                              Testing with more diverse users would provide insight on how to match others’ varying mental models of groups. I would be especially interested in understanding how designers of different abilities use Figma, such as how screen readers interact with the features and what preferences between keyboard shortcuts and mouse clicks looks like. My hope is that features like “Group View” that require less clicks would also benefit users with limited dexterity or muscle strength.
+                            </p>
+                            <!--
+                            <h2>
+                            What I would've done differently
+                          </h2>
+                          <p>
+                        </p> -->
+                        <a href="https://jiannaso.com/projects/kleiner-perkins">
+                          <img id="link" src="../images/figma/next.png">
+                        </a>
+
+
+                        <div class = "offset">
+                        </div>
+                        <div class = "offset">
+                        </div>
+                        <!-- END OF TEXT -->
+                      </div>
+
+
+                      <!-- FOOTER -->
+                      <div class = footer-box>
+                      </div>
+                    </div>
+                  </div>
+
+                  <footer>
+                    <a class="page-footer" id="wide-foot" href="#intro">
+                      INTRO
+                    </a>
+                    <a class="page-footer" id="wide-foot" href="#research">
+                      RESEARCH
+                    </a>
+                    <a class="page-footer" id="wide-foot" href="#analysis">
+                      ANALYSIS
+                    </a>
+                    <a class="page-footer" id="wide-foot" href="#ideation">
+                      IDEATION
+                    </a>
+                    <a class="page-footer" id="wide-foot" href="#solution">
+                      SOLUTION
+                    </a>
+                  </footer>
+
+                </body>
+
+                </html>

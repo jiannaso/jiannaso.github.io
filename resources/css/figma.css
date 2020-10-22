@@ -64,8 +64,13 @@ footer a {
   color: white;
 }
 
-.offset {
-  background-color: white;
+/* .offset {
+  background-color: none;
+} */
+
+.intro-offset {
+  height: 20px;
+  background-color: none;
 }
 
 footer a:hover {
