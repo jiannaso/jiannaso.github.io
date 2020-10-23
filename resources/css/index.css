@@ -297,7 +297,7 @@ em {
 .project-box {
   position: relative;
   display: inline-block;
-  width: 325px;
+  width: 350px;
   padding: 0 0 0 0;
   flex-wrap: wrap;
   flex-shrink: 2;
