@@ -355,10 +355,19 @@ img {
   /* padding-left: 0; */
   margin-bottom: 20px;
   margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
+
 #shadow {
   width: 75%;
   filter: drop-shadow(0 0 10px #C4C4C4);
+}
+
+iframe {
+    display: block;
+    align: center;
+    margin: auto;
+    padding: 1% 0;
 }
 video {
   position: absolute;

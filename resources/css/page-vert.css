@@ -74,7 +74,7 @@ body {
 }
 
 img {
-  padding: 0;
+  padding: 1% 0;
 }
 
 
@@ -112,6 +112,7 @@ h3 {
 
 .text h1 {
   padding:0px;
+  padding-top:20px;
   width: 100%;
 }
 
@@ -175,6 +176,7 @@ b {
   font-size: 1rem;
   color: #EE6C49;
   font-family: Karla;
+  width: 100%;
 }
 
 #caption {

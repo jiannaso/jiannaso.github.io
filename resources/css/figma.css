@@ -2,10 +2,6 @@ ul li::before {
   color: #A259FF;
 }
 
-img {
-  padding: 1% 0;
-}
-
 body {
   background-size:contain;
 }
@@ -40,7 +36,7 @@ b {
 #new {
   color: #F24E1E;
   /* background-color: #FFCA41; */
-  width: 103px;
+  /* width: 103px; */
 }
 
 #caption {
