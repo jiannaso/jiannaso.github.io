@@ -6,7 +6,7 @@ body {
 
 }
 
-.nav h1, .nav h3 {
+.nav h1, .nav h3, .nav h3:hover {
   color: #ABEBFF;
 }
 #overlay {

@@ -48,7 +48,7 @@ b {
   bottom: 0;
 }
 
-.nav h1, .nav h3 {
+.nav h1, .nav h3, .nav h3:hover {
   color: #A259FF;
 }
 

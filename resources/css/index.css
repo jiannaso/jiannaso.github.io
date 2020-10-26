@@ -19,6 +19,14 @@ html, body {
   width: 75%;
   display: inline-flex;
 }
+#h1nav {
+  width: 100%;
+}
+
+#h1nav:hover {
+  width: 100%;
+  transform: scale(1);
+}
 
 .nav h1 {
   text-align: left;
@@ -28,10 +36,14 @@ html, body {
 }
 .nav h3 {
   padding-top: 22px;
-  text-align: left;
+  text-align: right;
   margin-left: 20px;
   font-size: 1.1rem;
   line-height: 0;
+}
+
+.nav h3:hover {
+  color: #0027AF;
 }
 
 
@@ -368,6 +380,7 @@ iframe {
     align: center;
     margin: auto;
     padding: 1% 0;
+    width: 100%;
 }
 video {
   position: absolute;
