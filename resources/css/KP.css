@@ -18,7 +18,7 @@
   background: none;
 }
 
-.nav h1, .nav h3 {
+.nav h1, .nav h3, .nav h3:hover {
   color: #00321F;
 }
 
@@ -31,7 +31,8 @@ body {
 }
 
 b {
-  color: #109360;
+  color: black;
+  weight: 900;
 }
 
 .footer-box {
