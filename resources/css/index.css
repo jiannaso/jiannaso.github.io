@@ -16,7 +16,8 @@ html, body {
 .nav {
   position: absolute;
   top: 40px;
-  width: 75%;
+  width: 80%;
+  margin: auto;
   display: inline-flex;
 }
 #h1nav {
@@ -48,21 +49,31 @@ html, body {
 
 
 .nav h1, .nav h3 {
-  color: #212121;
+  color: gray;
 }
 
 .intro {
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 .intro h1 {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+  font-size: 3rem;
+  text-align: left;
+  width: 100%;
+  padding: 0;
 }
 
 .intro h2 {
   margin-top: 20px;
   margin-bottom: 0px;
   padding-bottom: 10px;
+  text-align: left;
+}
+.intro h3 {
+
+  text-align: left;
 }
 .offset {
   height: 50px;
@@ -101,10 +112,11 @@ body, .more {
   /* background-image: url("../../images/sunset.jpg"); */
   background-position: center;
   background-size: cover;
-  color: #212121;
+  color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   overflow: hidden;
+  background-color: #111111;
   }
 .more {
   /* height: 100vh;
@@ -178,7 +190,7 @@ a {
   /* margin: auto; */
   text-decoration: none;
   /* padding: 0 25%; */
-  color:  #212121;
+  color:  white;
   transition: .75s;
   /* transition-property: all;
   transition-duration: .5s; */
@@ -190,17 +202,21 @@ a {
 }
 /* purple: 681B83 */
 a:hover, #link:hover {
-  color: #0027AF;
+  /* color: #0027AF; */
   transform: scale(1.04);
   /* font-weight: bold; */
   /* font-size: .9rem; */
 }
 
+img:hover {
+  filter: grayscale(0);
+}
+
 .mouse {
   display: inline-block;
-  width: 450px;
+  width: 48%;
   height: auto;
-  margin: 1% 3%;
+  margin: 1% 0%;
 }
 
 .mouse h2, .mouse h3 {
@@ -239,7 +255,7 @@ footer a {
 
 /* WRAP */
 .wrap {
-  height:100vh;
+  height:50px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -252,7 +268,7 @@ h1 {
   display: block;
   font-size: 2rem;
   text-align: center;
-  width: 75%;
+  width: 80%;
   padding-left: 10%;
   padding-right: 10%;
   margin: auto;
@@ -261,34 +277,48 @@ h1 {
 }
 
 h2 {
-  position: relative;
-  text-align: center;
-  font-size: 1.75rem;
-  z-index: 2;
-  /* margin-bottom: 0px; */
+  letter-spacing: .05rem;
 }
 
+#title {
+  position: relative;
+  font-size: 4rem;
+  text-align: left;
+  font-size: 2.5rem;
+  z-index: 2;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+
+  /* margin-bottom: 0px; */
+}
+#title:after {
+  z-index: -1;
+  position: absolute;
+  /* Change "right: 0" to "left: 0" for left side line */
+  right: 0px;
+  top: 25px;
+  content: '';
+  width: 88%;
+  border-bottom: 1px solid gray;
+}
 h3 {
   position: relative;
   text-align: center;
   font-size: 1rem;
   z-index: 3;
   font-family: Karla;
-  opactity: 50%;
   font-weight: normal;
   position: relative;
   margin: 0;
-  padding: 1%;
+  color: gray;
+  /* padding: 1%; */
   /* bottom: 5px; */
-}
-
-#title {
-  margin-bottom: 20px;
 }
 
 #footer-font {
   padding: 3% 1% 0 0;
-  color: #212121;
+  color: white;
   width: 90%;
   margin: auto;
 }
@@ -300,7 +330,7 @@ em {
 .boxes {
   display: flex;
   align-content: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
@@ -368,10 +398,13 @@ img {
   margin-bottom: 20px;
   margin-left: auto;
     margin-right: auto;
+    /* filter: grayscale(.5); */
 }
 
+
+
 #shadow {
-  width: 75%;
+  width: 80%;
   filter: drop-shadow(0 0 10px #C4C4C4);
 }
 
