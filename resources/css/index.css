@@ -67,7 +67,7 @@ html, body {
   line-height: 75px;
   letter-spacing: 1px;
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .intro h2 {
@@ -209,7 +209,7 @@ a {
   text-decoration: none;
   word-spacing: 50px;
   font-size: 1.5rem;
-  padding-top: 50px;
+  padding-top: 40px;
   line-height: 50px;
 }
 
@@ -468,8 +468,8 @@ span, .span {
 
 #fixed {
   position: relative;
-  width: 350px;
-  padding-bottom: 50px;
+  width: 200px;
+  padding-bottom: 30px;
 }
 #shadow {
   width: 80%;
