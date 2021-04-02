@@ -1,0 +1,39 @@
+.write-up {
+  /* background: linear-gradient(to bottom, #00321F 0%, #007E4E 100%); */
+  background: white;
+  color: #002517;
+}
+
+.intro {
+  background: linear-gradient(to bottom, #003366 0%, #001A34 100%);
+  /* color: #001A34; */
+  color: white;
+}
+
+.intro h2 {
+  color: #9AC0E5;
+}
+
+.offset {
+  background: none;
+}
+
+.nav h1, .nav h3, .nav h3:hover {
+  color: #001A34;
+}
+
+.text h2 {
+  color: #307FE2;
+}
+
+body {
+  background-size:cover;
+}
+
+b {
+  color: #307FE2;
+}
+
+.footer-box {
+  background-color: #001A34;
+}
